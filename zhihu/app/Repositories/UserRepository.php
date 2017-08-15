@@ -1,0 +1,1 @@
+<?php    /**     * Created by PhpStorm.     * User: ontheroad     * Date: 2017/8/7     * Time: 22:08     */    namespace App\Repositories;    use App\User;    class UserRepository    {        public function byId($id){            return User::find($id);        }    }
